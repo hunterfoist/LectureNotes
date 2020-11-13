@@ -1,0 +1,61 @@
+h1 { 
+    color: lightgreen;
+    text-align: center;
+
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+.div-one {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.div-one {
+    border: thick black;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: grey;
+    text-align: center;
+}
+
+.truth-one {
+    border: thin black;
+    border-style: dashed;
+    border-radius: 25px;
+    background-color: lightgrey;
+    flex: 33.33%;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.truth-two {
+    border: thin black;
+    border-style: dashed;
+    border-radius: 25px;
+    background-color: lightgrey;
+    flex: 33.33%;
+    padding: 5px;
+    margin: 5px;
+    
+   
+}
+
+.truth-three {
+    border: thin black;
+    border-style: dashed;
+    border-radius: 25px;
+    background-color: lightgrey;
+   flex: 33.33%;
+   padding: 5px;
+   margin: 5px;
+
+}

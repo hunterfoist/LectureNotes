@@ -1,0 +1,28 @@
+let myFavoriteThings = {
+    number: 9, 
+    movie: 'Interstellar',
+    favShowTheOffice: true,
+    music: {
+        pop: 'Ariana Grande'
+    },
+    nothing: undefined,
+}
+
+console.log(typeof myFavoriteThings.music.pop)
+
+
+let value = typeof myFavoriteThings.nothing;
+
+if(value === "number"){
+    console.log("We're good! It's a number.")
+} else if(value === "boolean"){
+    console.log("We're good! It's a boolean.")
+} else if(value === "object"){
+    console.log("We're good! It's an object.")
+} else if(value === "string"){
+    console.log("We're good! It's a string")
+} else {
+    console.log("What are you?!")
+}
+
+
