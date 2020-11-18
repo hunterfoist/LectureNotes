@@ -1,0 +1,445 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+.page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1 0 auto;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: #000;
+    background-color: #f5f6f7;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    margin: 0px;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: background-color .2s ease-in,opacity .2s ease-in;
+    visibility: visible;
+    opacity: 25;
+}
+
+.navLogIn {
+    position: relative;
+    Left: 50em;
+    top: 2em;
+    color: #fff;
+    margin: 4px 0px;
+    border: none;
+    display: block;
+    letter-spacing: 1px;
+    font-family: 'Graphik',Arial, Helvetica, sans-serif;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: none;
+}
+
+.backgroundCollage {
+    background-image: linear-gradient(0deg,transparent 60%,rgba(0,0,0,0.2) 90%,rgba(0,0,0,0.4) 100%),url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+}
+
+.masthead {
+    background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding-top: 72px;
+    min-height: 660px;
+}
+.mastheadContainer {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 670px;;
+    margin-left: 0;
+    margin-right: 0;
+    color: #fff;
+    line-height: 1.3;
+    z-index: 0;
+    padding: 40px 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mastheadpreLine {
+    padding-bottom: 17px;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.preRibbon {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.Masthead__subheadline {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+.Masthead__secondary-message {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.mastheadInput {
+    margin-top: 1.6em;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonCTA {
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #040505;
+    background: #fff;
+    height: 56px;
+    min-width: 136px;
+    padding: 0 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.Masthead__legal {
+    align-self: center;
+    margin-top: 16px;
+    color: #fff;
+    opacity: 0.6;
+    width: 536px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+.middleRibbon {
+    padding: 25px 40px;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    align-items: center;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+.row{
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1520px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+.middleRibbon img {
+    max-width: 355px;
+    width: 100%;
+}
+
+.ribbonLogos {
+    padding-left: 0;
+}
+
+.moreDetails {
+    padding-left: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: .5rem;
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+}
+
+.Ribbon__eyebrow {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.ribbonMiddle {
+    margin-top: 5px;
+    box-sizing: inherit;
+    display: block;
+}
+
+.ribbonMiddleInfo {
+    font-size: 24px;
+    line-height: 32px;
+    display: inline;
+    color: #fff;
+}
+
+.ribbonBottom {
+    display: block;
+    padding-top: 5px;
+    box-sizing: inherit;
+}
+
+.ribbonBottomInfo {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    padding: 0em;
+}
+
+.ribbonButton {
+    padding-top: 20px;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+    float: right;
+    
+}
+
+.ribbonButtonContainer {
+    display: block;
+    box-sizing: inherit;
+    text-align: center;
+    position: relative;
+    bottom: 4em;
+}
+
+.ribbonButtonItem {
+    padding-left: 32px;
+    padding-right: 32px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 56px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    min-width: 136px;
+}
+
+.ribbonBottomRightInfo {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    bottom: 5em;
+    right: 5em;
+    font-size: 10px;
+    text-align: center;
+    box-sizing: inherit;
+}
+
+.library {
+    background-color: black;
+    position: relative;
+    box-sizing: inherit;
+    display: block;
+
+}
+
+.libraryHeader {
+    margin: 0 auto;
+    max-width: 80%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    box-sizing: inherit;
+}
+
+.libraryHeaderContent {
+    padding-top: 88px;
+    text-align: center;
+    padding: 50px 20px;
+    display: block;
+    box-sizing: inherit;
+
+}
+
+.libraryTop {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.86px;
+    line-height: 12px;
+    margin-bottom: 16px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.libraryMiddle {
+    font-size: 64px;
+    letter-spacing: -0.5px;
+    line-height: 70px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.libraryBottom {
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: inherit;
+    display: block;
+}
+
+.mediaContainer {
+    background-color: #000;
+    padding: 0 20px 60px;
+    position: relative;
+    z-index: 2;
+    max-width: 786px;
+    margin: 0 auto;
+    box-sizing: inherit;
+    display: block;
+}
+
+.mediaGrid {
+    grid-template-rows: auto;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mediaGridItem{
+    color: #fff;
+    box-sizing: inherit;
+    position: relative;
+}
+
+.mediaGridItemGradient{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(156.82deg, rgba(0,0,0,0.6) 4.58%, rgba(0,0,0,0) 69.61%),linear-gradient(24.5deg, rgba(0,0,0,0.2) 4.71%, rgba(0,0,0,0) 71.49%);
+}
+
+.mediaItem-background{
+    width: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: inherit;
+}
+
+.mediaGridItemOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+}
+
+.mediaItemTop{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 12px;
+    font-weight: 400;
+}
+
+.mediaItemBottom{
+    line-height: 16px;
+    font-weight: bold;
+    font-size: 24px;
+}
